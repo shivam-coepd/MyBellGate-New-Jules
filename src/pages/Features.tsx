@@ -8,7 +8,7 @@ const Features: React.FC = () => {
         <div className="max-w-3xl">
           <span className="inline-block px-4 py-1.5 rounded-full bg-secondary/10 text-secondary font-label-caps mb-6">THE NEW STANDARD</span>
           <h1 className="font-h1 text-h1 text-primary mb-8 leading-[1.1]">Everything you need for a <span className="text-secondary">premium community.</span></h1>
-          <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">GatePass redefines secure living with sophisticated modules designed for efficiency, transparency, and safety.</p>
+          <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">MyGateBell redefines secure living with sophisticated modules designed for efficiency, transparency, and safety.</p>
         </div>
       </section>
 
@@ -110,7 +110,7 @@ const Features: React.FC = () => {
       <section className="bg-primary-container py-24 text-center">
         <div className="max-w-[1200px] mx-auto px-8">
           <h2 className="font-h2 text-h2 text-white mb-6">Ready to upgrade your society?</h2>
-          <p className="text-on-primary-container font-body-lg max-w-2xl mx-auto mb-10">Join over 5,000+ premium communities who trust GatePass for their daily operations and security.</p>
+          <p className="text-on-primary-container font-body-lg max-w-2xl mx-auto mb-10">Join over 5,000+ premium communities who trust MyGateBell for their daily operations and security.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button className="bg-secondary text-white px-8 py-4 rounded-[10px] font-bold text-lg hover:translate-y-[-2px] transition-transform">Request a Demo</button>
             <button className="border border-white/20 text-white px-8 py-4 rounded-[10px] font-bold text-lg hover:bg-white/5 transition-colors">Pricing Plans</button>

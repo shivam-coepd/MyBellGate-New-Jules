@@ -51,7 +51,7 @@ const Security: React.FC = () => {
                 <span className="material-symbols-outlined text-secondary text-3xl">visibility_off</span>
               </div>
               <h3 className="font-h2 text-[24px] mb-4">Privacy by Default</h3>
-              <p className="font-body-md text-on-surface-variant">Data is anonymized wherever possible. GatePass never sells your community's data; we are providers, not brokers.</p>
+              <p className="font-body-md text-on-surface-variant">Data is anonymized wherever possible. MyGateBell never sells your community's data; we are providers, not brokers.</p>
             </div>
           </div>
         </div>

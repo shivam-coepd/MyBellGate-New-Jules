@@ -107,7 +107,7 @@ const Product: React.FC = () => {
             <div className="w-12 h-12 rounded-full bg-slate-200"></div>
             <div>
               <p className="font-bold text-primary">Marcus Thorne</p>
-              <p className="text-sm text-on-surface-variant">Chief Design Officer, GatePass</p>
+              <p className="text-sm text-on-surface-variant">Chief Design Officer, MyGateBell</p>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const Product: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div>
               <h2 className="font-h2 text-h2 mb-8">Uncompromising Security Architecture</h2>
-              <p className="text-body-lg text-slate-400 mb-12">Built on military-grade encryption protocols and hosted on decentralized servers, GatePass ensures that community data remains private, persistent, and protected.</p>
+              <p className="text-body-lg text-slate-400 mb-12">Built on military-grade encryption protocols and hosted on decentralized servers, MyGateBell ensures that community data remains private, persistent, and protected.</p>
               <div className="space-y-8">
                 <div className="flex gap-6">
                   <div className="w-12 h-12 flex-shrink-0 bg-white/5 border border-white/10 flex items-center justify-center rounded-xl">
@@ -169,7 +169,7 @@ const Product: React.FC = () => {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-800 rounded-[32px] p-12 md:p-20 text-center text-white relative overflow-hidden">
             <h2 className="font-h2 text-h2 mb-8 relative z-10">Ready to Upgrade Your Entry Standard?</h2>
-            <p className="font-body-lg text-body-lg text-blue-100 mb-12 max-w-2xl mx-auto relative z-10">Join over 500+ premium residential complexes that have revolutionized their living experience with GatePass.</p>
+            <p className="font-body-lg text-body-lg text-blue-100 mb-12 max-w-2xl mx-auto relative z-10">Join over 500+ premium residential complexes that have revolutionized their living experience with MyGateBell.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
               <button className="bg-white text-blue-600 px-10 py-5 rounded-[12px] font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg">Request a Demo</button>
               <button className="bg-blue-900/30 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-[12px] font-bold text-lg hover:bg-blue-900/50 transition-colors">Pricing Plans</button>

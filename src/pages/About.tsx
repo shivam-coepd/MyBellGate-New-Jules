@@ -4,13 +4,13 @@ const About: React.FC = () => {
   return (
     <div className="bg-background font-body-md text-on-surface">
       {/* Hero Section */}
-      <section className="hero-gradient py-24 md:py-32 overflow-hidden">
+      <section className="hero-gradient py-8 md:py-16 overflow-hidden">
         <div className="max-w-[1200px] mx-auto px-8 grid grid-cols-1 md:grid-cols-12 items-center gap-16">
           <div className="md:col-span-7">
             <span className="text-label-caps font-label-caps text-secondary uppercase tracking-widest mb-6 block">Our Story</span>
-            <h1 className="font-h1 text-h1 text-primary mb-8">Securing 27,000+ communities across India.</h1>
+            <h1 className="font-h1 text-h1 text-white/80 mb-8">Securing 1,000+ communities across India.</h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-              GatePass is more than just a security app. We are the digital backbone of modern community living, ensuring safety, convenience, and peace of mind for millions of residents from Mumbai to Meghalaya.
+              MyGateBell is more than just a security app. We are the digital backbone of modern community living, ensuring safety, convenience, and peace of mind for millions of residents from Mumbai to Meghalaya.
             </p>
           </div>
           <div className="md:col-span-5 relative">
@@ -45,7 +45,7 @@ const About: React.FC = () => {
               <span className="text-secondary font-label-caps text-label-caps mb-4 block">2018 - The Spark</span>
               <h3 className="font-h2 text-h2 text-primary text-3xl mb-6">Born from a local challenge.</h3>
               <p className="font-body-md text-body-md text-on-surface-variant">
-                GatePass started in a small office in Bangalore with a simple question: why is entry still documented on paper in the digital age? We built our first prototype for a single society of 40 homes.
+                MyGateBell started in a small office in Bangalore with a simple question: why is entry still documented on paper in the digital age? We built our first prototype for a single society of 40 homes.
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ const About: React.FC = () => {
               <span className="text-secondary font-label-caps text-label-caps mb-4 block">2024 - Today</span>
               <h3 className="font-h2 text-h2 text-primary text-3xl mb-6">Nationwide Scale.</h3>
               <p className="font-body-md text-body-md text-on-surface-variant">
-                Today, GatePass is the trusted partner for over 27,000 communities. From gated villas to high-rise townships, we process over 5 million check-ins daily, making us the fastest-growing security platform in the region.
+                Today, MyGateBell is the trusted partner for over 27,000 communities. From gated villas to high-rise townships, we process over 5 million check-ins daily, making us the fastest-growing security platform in the region.
               </p>
             </div>
             <div>
@@ -112,7 +112,7 @@ const About: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-h2 text-3xl text-primary mb-4">Local Impact</h4>
-                <p className="font-body-md text-on-surface-variant">GatePass has trained over 150,000 security personnel across India, providing them with digital literacy and elevating the standard of professional guarding services.</p>
+                <p className="font-body-md text-on-surface-variant">MyGateBell has trained over 150,000 security personnel across India, providing them with digital literacy and elevating the standard of professional guarding services.</p>
               </div>
             </div>
           </div>
