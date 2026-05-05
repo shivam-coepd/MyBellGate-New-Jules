@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/mygatebell_logo.png";
 
 const Footer: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="text-lg font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-2">
             {/* <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>shield</span> */}
             <img
-              src="src/assets/mygatebell_logo.png"
+              src={logo}
               alt="MyGateBell Logo"
               className="w-7 h-7 md:w-9 md:h-9 object-contain transition-transform duration-300 hover:scale-110"
             />
