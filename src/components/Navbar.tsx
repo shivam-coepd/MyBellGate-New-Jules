@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+// @ts-ignore - Image import
 import logo from "../assets/mygatebell_logo.png";
+import ScrollProgress from "./ScrollProgress";
 
 const Navbar: React.FC = () => {
   const location = useLocation();
@@ -17,7 +19,7 @@ const Navbar: React.FC = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-t-2 border-secondary bg-white/80 backdrop-blur-md shadow-ambient">
+    <nav className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md shadow-ambient">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
         <Link
           to="/"
@@ -57,6 +59,8 @@ const Navbar: React.FC = () => {
           </button>
         </div>
       </div>
+      {/* Scroll Progress Indicator */}
+      <ScrollProgress />
     </nav>
   );
 };
